@@ -38,10 +38,6 @@ A comprehensive cryptocurrency platform offering advanced digital asset manageme
 - Node.js 16.0 or higher
 - npm or yarn package manager
 
-### Clone the repository
-```bash
-git clone https://github.com/cafepersians/cafepersians.io.git
-cd cafepersians.io
 
 <a href="http://www.coffeete.ir/Cafepersians">
        <img src="http://www.coffeete.ir/images/buttons/lemonchiffon.png" style="width:260px;" />
