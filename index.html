@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafepersians.io - Advanced cryptocurrency platform with comprehensive real estate, automotive, investment, insurance, and advertising services. Professional crypto services including TRX, USDC, AVAX, and RVN support.">
+    <meta name="keywords" content="cryptocurrency, TRX, USDC, AVAX, RVN, blockchain, digital assets, real estate, automotive, investment, insurance, advertising, SEO optimization, crypto wallet, decentralized finance">
+    <meta name="author" content="Cafepersians.io">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Cafepersians.io - Advanced Cryptocurrency & Services Platform">
+    <meta property="og:description" content="Professional cryptocurrency platform with comprehensive real estate, automotive, investment, insurance, and advertising services">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cafepersians.io">
+    <meta property="og:image" content="https://z-cdn-media.chatglm.cn/files/6fbbf1fd-e3ce-4ca6-8d9b-bee7be1747f9_IMG_20250914_141947_072.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cafepersians.io - Advanced Cryptocurrency & Services Platform">
+    <meta name="twitter:description" content="Professional cryptocurrency platform with comprehensive real estate, automotive, investment, insurance, and advertising services">
+    <meta name="twitter:image" content="https://z-cdn-media.chatglm.cn/files/6fbbf1fd-e3ce-4ca6-8d9b-bee7be1747f9_IMG_20250914_141947_072.jpg">
+    
+    <title>Cafepersians.io - Advanced Cryptocurrency & Services Platform</title>
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Load fonts with font-display: swap for performance -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons with subsetting for performance -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMlvRp2Xdo+flfMns8QJOLNN1sC7HwUQngzRg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo" onclick="scrollToSection('home')">
+                <div class="logo-icon">
+                    <i class="fas fa-coins"></i>
+                </div>
+                <div class="logo-text">Cafepersians.io</div>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" onclick="scrollToSection('home')">Home</a></li>
+                <li><a href="#features" onclick="scrollToSection('features')">Features</a></li>
+                <li><a href="#services" onclick="scrollToSection('services')">Services</a></li>
+                <li><a href="#crypto" onclick="scrollToSection('crypto')">Crypto</a></li>
+                <li><a href="#support" onclick="scrollToSection('support')">Support</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate__animated animate__fadeInUp">Advanced Cryptocurrency & Services Platform</h1>
+            <p class="animate__animated animate__fadeInUp">Professional digital asset management with comprehensive real estate, automotive, investment, insurance, and advertising services</p>
+            <div class="cta-buttons">
+                <a href="#crypto" class="btn btn-primary" onclick="scrollToSection('crypto')">
+                    <i class="fas fa-wallet"></i>
+                    View Crypto Addresses
+                </a>
+                <a href="#services" class="btn btn-secondary" onclick="scrollToSection('services')">
+                    <i class="fas fa-briefcase"></i>
+                    Our Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="features-container">
+            <h2>Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card" onclick="showFeatureDetails('link-extraction')">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Link Extraction</h3>
+                    <p>Advanced URL extraction and analysis with comprehensive SEO insights and optimization recommendations.</p>
+                </div>
+                <div class="feature-card" onclick="showFeatureDetails('seo-optimization')">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Complete SEO analysis with meta tags, keywords, and performance optimization for better search rankings.</p>
+                </div>
+                <div class="feature-card" onclick="showFeatureDetails('security')">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security First</h3>
+                    <p>Enterprise-grade security with no CORS proxy restrictions and permanent network connectivity.</p>
+                </div>
+                <div class="feature-card" onclick="showFeatureDetails('mobile-optimized')">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Optimized</h3>
+                    <p>Fully responsive design that works seamlessly across all devices and screen sizes.</p>
+                </div>
+                <div class="feature-card" onclick="showFeatureDetails('high-performance')">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>High Performance</h3>
+                    <p>Optimized for speed with modern frameworks and libraries for the best user experience.</p>
+                </div>
+                <div class="feature-card" onclick="showFeatureDetails('global-access')">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Access</h3>
+                    <p>No geographical restrictions with permanent internet connection and global accessibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" onclick="showServiceDetails('real-estate')">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Real Estate</h3>
+                    <p>Comprehensive property services including villas, gardens, land, buying, selling, renting, and exchanging properties across Iran.</p>
+                </div>
+                <div class="service-card" onclick="showServiceDetails('automotive')">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Automotive</h3>
+                    <p>Professional vehicle services including buying, selling, and exchanging automobiles with competitive pricing and fast transactions.</p>
+                </div>
+                <div class="service-card" onclick="showServiceDetails('investment')">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Investment</h3>
+                    <p>Golden investment opportunities in stock market, gold, and digital currencies with expert guidance and secure transactions.</p>
+                </div>
+                <div class="service-card" onclick="showServiceDetails('insurance')">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Insurance</h3>
+                    <p>Comprehensive insurance services providing security for today and tomorrow with all types of insurance policies except third-party.</p>
+                </div>
+                <div class="service-card" onclick="showServiceDetails('advertising')">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Advertising</h3>
+                    <p>Effective and high-return advertising services across multiple platforms including Divar, Sheypoor, and other popular marketplaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cryptocurrency Section -->
+    <section id="crypto" class="crypto-section">
+        <div class="crypto-container">
+            <h2>Cryptocurrency Addresses</h2>
+            <div class="crypto-grid">
+                <div class="crypto-card">
+                    <div class="crypto-icon">
+                        <i class="fab fa-bitcoin"></i>
+                    </div>
+                    <h3>TRX</h3>
+                    <div class="crypto-address" id="trx-address">TPiDbYoBH3rFJfAgV3QL93FLNg4mM5DpVi</div>
+                    <button class="copy-btn" onclick="copyToClipboard('trx-address')">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                    <button class="copy-btn" onclick="showQRCode('trx-address', 'TRX')" style="margin-left: 5px;">
+                        <i class="fas fa-qrcode"></i> QR
+                    </button>
+                </div>
+                <div class="crypto-card">
+                    <div class="crypto-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>USDC</h3>
+                    <div class="crypto-address" id="usdc-address">TPiDbYoBH3rFJfAgV3QL93FLNg4mM5DpVi</div>
+                    <button class="copy-btn" onclick="copyToClipboard('usdc-address')">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                    <button class="copy-btn" onclick="showQRCode('usdc-address', 'USDC')" style="margin-left: 5px;">
+                        <i class="fas fa-qrcode"></i> QR
+                    </button>
+                </div>
+                <div class="crypto-card">
+                    <div class="crypto-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>TRX</h3>
+                    <div class="crypto-address" id="trx-address-2">TRYkquczj9S8b6udMPkhGyLCLMZSKtejgG</div>
+                    <button class="copy-btn" onclick="copyToClipboard('trx-address-2')">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                    <button class="copy-btn" onclick="showQRCode('trx-address-2', 'TRX')" style="margin-left: 5px;">
+                        <i class="fas fa-qrcode"></i> QR
+                    </button>
+                </div>
+                <div class="crypto-card">
+                    <div class="crypto-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3>AVAX</h3>
+                    <div class="crypto-address" id="avax-address">0x817aF430F901D1658A967467ddCA929FFC03b42f</div>
+                    <button class="copy-btn" onclick="copyToClipboard('avax-address')">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                    <button class="copy-btn" onclick="showQRCode('avax-address', 'AVAX')" style="margin-left: 5px;">
+                        <i class="fas fa-qrcode"></i> QR
+                    </button>
+                </div>
+                <div class="crypto-card">
+                    <div class="crypto-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>RVN</h3>
+                    <div class="crypto-address" id="rvn-address">RWjrY8UjeuTqjppRVaXNhzSA8yB1r7187R</div>
+                    <button class="copy-btn" onclick="copyToClipboard('rvn-address')">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                    <button class="copy-btn" onclick="showQRCode('rvn-address', 'RVN')" style="margin-left: 5px;">
+                        <i class="fas fa-qrcode"></i> QR
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support" class="support">
+        <div class="support-container">
+            <h2>Support</h2>
+            <p>This project was built with 🖤</p>
+            <div class="support-links">
+                <a href="https://takl.ink/Cafepersians.io/" class="support-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    Cafe Persians
+                </a>
+                <a href="https://hamibash.com/cafepersians" class="support-link" target="_blank">
+                    <i class="fas fa-heart"></i>
+                    Support Us
+                </a>
+                <a href="https://zarinp.al/cafepersians" class="support-link" target="_blank">
+                    <i class="fas fa-donate"></i>
+                    Donate
+                </a>
+                <a href="https://www.coffeete.ir/Cafepersians" class="support-link" target="_blank">
+                    <i class="fas fa-coffee"></i>
+                    Coffee Time
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Cafepersians.io. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#home" onclick="scrollToSection('home')">Home</a>
+            <a href="#features" onclick="scrollToSection('features')">Features</a>
+            <a href="#services" onclick="scrollToSection('services')">Services</a>
+            <a href="#crypto" onclick="scrollToSection('crypto')">Crypto</a>
+            <a href="#support" onclick="scrollToSection('support')">Support</a>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="back-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Network Status Indicator -->
+    <div class="network-status">
+        <div class="network-indicator" id="network-indicator"></div>
+        <span id="network-status-text">Online</span>
+    </div>
+
+    <!-- Feature Details Modal -->
+    <div id="feature-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('feature-modal')">&times;</span>
+            <h2 id="feature-modal-title"></h2>
+            <div id="feature-modal-content"></div>
+        </div>
+    </div>
+
+    <!-- Service Details Modal -->
+    <div id="service-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('service-modal')">&times;</span>
+            <h2 id="service-modal-title"></h2>
+            <div id="service-modal-content"></div>
+        </div>
+    </div>
+
+    <!-- QR Code Modal -->
+    <div id="qr-modal" class="qr-modal">
+        <div class="qr-content">
+            <span class="close-modal" onclick="closeModal('qr-modal')">&times;</span>
+            <h2 id="qr-modal-title"></h2>
+            <div class="qr-code" id="qr-code"></div>
+            <p id="qr-address"></p>
+            <button class="copy-btn" onclick="copyToClipboardFromQR()">
+                <i class="fas fa-copy"></i> Copy Address
+            </button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
