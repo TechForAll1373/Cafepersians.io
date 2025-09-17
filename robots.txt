@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Sitemap
+Sitemap: https://cafepersians.io/sitemap.xml
+
+# Block common bot paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /logs/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.env
+
+# Block specific file types
+Disallow: /*.json$
+Disallow: /*.log$
+Disallow: /*.tmp$
+Disallow: /*.bak$
+
+# Crawl delay (optional)
+Crawl-delay: 1
