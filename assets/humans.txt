@@ -1,0 +1,11 @@
+/* TEAM */
+  Creator: Cafepersians.io Team
+  Contact: info@cafepersians.io
+  Twitter: @cafepersians
+  From: Iran
+
+/* SITE */
+  Last update: 2025/01/01
+  Standards: HTML5, CSS3, JavaScript ES6+
+  Components: Font Awesome, Animate.css, Google Fonts
+  Software: VS Code, Git, GitHub
